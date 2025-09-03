@@ -2,103 +2,174 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>LandLMedia</title>
-	<meta name="description" content="digital training, online visibility">
+	<title>About Us - Evoke Tech</title>
+	<meta name="description" content="Learn about Evoke Tech - Digital Products for Business">
 	<link rel="stylesheet" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-		<header>
-		<nav class="menu">
-			<!--Hamburger:Visible only on mobile-->
-			<div class="hamburger" id="hamburger">&#9776;</div>
-			<!-- Logo -->
-			<a href="index.html" class="logo"><img src="evoke_logo_white_rectangular.png" alt="Evoke_Logo"></a>
-			<!-- Navigation Links -->
-			<ul class="nav1" id="nav-links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-			<div class="contact">
-				<a href="tel:0700660694"><i class="fa fa-phone"></i> 0700660694</a>
+	<header>
+		<nav class="navbar">
+			<div class="nav-container">
+				<a href="index.html" class="nav-logo">
+					<img src="evoke_logo_white_rectangular.png" alt="Evoke Tech Logo">
+				</a>
+				
+				<ul class="nav-menu" id="nav-menu">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="services.html" class="nav-link">Services</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+				</ul>
+
+				<div class="nav-contact">
+					<a href="tel:0700660694" class="contact-btn">
+						<i class="fas fa-phone"></i>
+						<span>0700660694</span>
+					</a>
+				</div>
+
+				<div class="hamburger" id="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
 		</nav>
 	</header>
-    <main>
-        <div class="hero">
-            <img src="hero website.jpg" alt="Hero Image">
-            <p>Turning Your Vision Into Digital Reality</p>
-        </div>
-        <div class="intro">
-            <p>
-                "Every business has a story — and I believe the online world is the best place to tell it. I work with small and personal businesses to bring their ideas to life, whether that means a professional website, a thriving e-commerce platform, or social media pages that actually connect with people."
-            </p>
-        </div>
-    <div class="about_row">
-        <div class="trust">
-            <h4>Who I Work With</h4>
-            <div class="img_container">
-                <img src="small business.jpg" alt="Trust Image">
-            </div>
-                <p>
-                    I partner with entrepreneurs, startups, and small business owners who want to create meaningful digital platforms. Whether you’re a craftsperson, a shop owner, a service provider, or someone building digital presence— I design solutions that reflect who you are and who you serve.
-                </p>
-        </div>
-        <div class="invite">
-            <h4>Why Work With Me</h4>
-            <div class="img_container">
-             <img src="about_partner.jpg" alt="Invite Image">
-            </div>
-            <p>
-                For me, building websites and online platforms isn’t just about code and design — it’s about building trust. I run my work with transparency and dedication with a simple goal: to help you connect, grow, and succeed online.
-            </p>
-        </div>
-    </div>
-        <div class="call_to_action">
-                <p>
-                If you’re ready to take your digital presence to the next level, I’d love to hear from you. Let’s chat about your vision and how we can make it a reality together.
-            </p>
-            <a href="contact.html" class="about_button">Get in Touch</a>
-        </div>
-    </main>
-    <footer>
-	<div class="footer_content">
-		<div class="footer_column" id="footer-logo">
-			<a href="index.html">	
-			<img src="evoke_logo_footer.png" alt="Evoke Logo">
-			</a>
-		</div>
-		<div class="footer_column"id="contact-us">
-				<p>Contact us</p>
-				<p>Phone Number: 0700660694</p>
-				<a href="mailto:info@evokemedia.co.ke">Email: info@evokemedia.co.ke</a>
-		</div>
-		<div class="footer_column" id="social-media">
-				<p>Follow us</p>
-				<a href="#"><i class="fa fa-facebook"></i>  Facebook</a>
-				<a href="#"><i class="fa fa-twitter"></i>  Twitter</a>
-				<a href="#"><i class="fa fa-linkedin"></i>  LinkedIn</a>
-		</div>
-		<div class="footer_column" id="about-us">
-				<p>About Us</p>
-				<a href="about.html">Our Story</a>
-				<a href="#">Our Team</a>
-				<a href="#">Careers</a>
-		</div>
-	</div>
-     <p id="copyright">&copy; Evoke Media 2025. All Rights reserved.</p>
 
-</footer>
-<script>
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.getElementById('nav-links');
+	<main>
+		<!-- About Hero Section -->
+		<section class="about-hero">
+			<div class="about-hero-background">
+				<div class="about-hero-image"></div>
+				<div class="about-hero-overlay"></div>
+			</div>
+			<div class="container">
+				<div class="about-hero-content">
+					<h1>About Evoke Tech</h1>
+					<p>Turning Your Vision Into Digital Reality</p>
+				</div>
+			</div>
+		</section>
 
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-</script>
+		<!-- About Intro Section -->
+		<section class="about-intro">
+			<div class="container">
+				<div class="about-intro-content">
+					<p class="about-quote">
+						"Every business has a story — and I believe the online world is the best place to tell it. I work with small and personal businesses to bring their ideas to life, whether that means a professional website, a thriving e-commerce platform, or social media pages that actually connect with people."
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- About Features Section -->
+		<section class="about-features">
+			<div class="container">
+				<div class="about-grid">
+					<div class="about-card">
+						<div class="about-image">
+							<img src="small business.jpg" alt="Who We Work With">
+						</div>
+						<div class="about-content">
+							<h3>Who We Work With</h3>
+							<p>
+								I partner with entrepreneurs, startups, and small business owners who want to create meaningful digital platforms. Whether you're a craftsperson, a shop owner, a service provider, or someone building digital presence— I design solutions that reflect who you are and who you serve.
+							</p>
+						</div>
+					</div>
+
+					<div class="about-card">
+						<div class="about-image">
+							<img src="about_partner.jpg" alt="Why Work With Us">
+						</div>
+						<div class="about-content">
+							<h3>Why Work With Us</h3>
+							<p>
+								For me, building websites and online platforms isn't just about code and design — it's about building trust. I run my work with transparency and dedication with a simple goal: to help you connect, grow, and succeed online.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- About CTA Section -->
+		<section class="about-cta">
+			<div class="container">
+				<div class="about-cta-content">
+					<p>
+						If you're ready to take your digital presence to the next level, I'd love to hear from you. Let's chat about your vision and how we can make it a reality together.
+					</p>
+					<a href="contact.html" class="btn btn-primary">Get in Touch</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<div class="footer-logo">
+						<img src="evoke_logo_footer.png" alt="Evoke Tech Logo">
+					</div>
+					<p>Digital products that drive growth and transform businesses.</p>
+					<div class="social-links">
+						<a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="footer-section">
+					<h3>Services</h3>
+					<ul>
+						<li><a href="services.html">Web Development</a></li>
+						<li><a href="services.html">Mobile Apps</a></li>
+						<li><a href="services.html">WordPress CMS</a></li>
+						<li><a href="services.html">SEO & Content</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-section">
+					<h3>Company</h3>
+					<ul>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="index.html#process">Our Process</a></li>
+						<li><a href="index.html#clients">Our Clients</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-section">
+					<h3>Contact</h3>
+					<div class="contact-info">
+						<p><i class="fas fa-phone"></i> 0700660694</p>
+						<p><i class="fas fa-envelope"></i> info@evokemedia.co.ke</p>
+						<p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer-bottom">
+				<p>&copy; 2025 Evoke Tech. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
 </body>
 </html>
