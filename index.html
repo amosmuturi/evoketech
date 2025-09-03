@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Evoke Tech</title>
+	<meta name="description" content="digital training, online visibility">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav class="menu">
+			<!--Hamburger:Visible only on mobile-->
+			<div class="hamburger" id="hamburger">&#9776;</div>
+			<!-- Logo -->
+			<a href="index.html" class="logo"><img src="evoke_logo_white_rectangular.png" alt="Evoke_Logo"></a>
+			<!-- Navigation Links -->
+			<ul class="nav1" id="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div class="contact">
+				<a href="tel:0700660694"><i class="fa fa-phone"></i> 0700660694</a>
+		</nav>
+	</header>
+<main>
+		<section class="introduction">
+		 <div class="text-container">
+		  <h1 id="heading1">Who We Are</h1>
+		    <p id="paragraph1">
+At Evoke Media, we craft websites, optimize visibility with SEO, and manage social platforms to help your brand stand out. From startups to established businesses, we deliver digital solutions that drive growth and results.		    </p>
+			<div class="button-container">
+			<button id="visit-button"><a href="services.html">Visit Us</a></button>
+			<button id="call-me"><a href="tel:0700660694">Call Us</a></button>
+			</div>
+         </div>
+			<img src="business_growth.jpg" alt="Business Growth" id="image1">
+		</section>
+		<section class="services">
+			<h2>What We Offer</h2>
+			<!-- Service Columns -->
+			<div class="service-columns">
+			<div class="column" id="website_creation">
+				<h3>Business & Personal Websites </h3>
+				<img src="website1.jpg" alt="Website Creation" id="image5">
+				<p>
+					From design to maintenance, we craft beautiful, responsive websites that work for your business 24/7
+				</p>
+			</div>
+			<div class="column" id="smo">
+				<h3>E-commerce Websites</h3>
+				<img src="ecomerce.jpg" alt="E-commerce Websites" id="image3">
+				<p>
+					We create user-friendly e-commerce websites that drive sales and enhance the shopping experience.
+				</p>
+			</div>
+			<div class="column" id="seo">
+				<h3>Search Engine Optimization</h3>
+				<img src="seo.jpg" alt="Search Engine Optimization" id="image4">
+				<p>
+					We make sure your business shows up where it matters—on the front page of Google—through smart, ethical SEO strategies.
+				</p>
+			</div>
+			</div>
+		</section>
+
+	<section class="what-makes-us-click">
+		<h2>What Makes Us Click</h2>
+		<div class="our_edge">	
+		<div class="click-left">
+			<h3 onclick="showContent(1)">Versatility Across Platforms</h3>
+			<h3 onclick="showContent(2)">Performance-Driven Approach</h3>
+			<h3 onclick="showContent(3)">SEO That Gets You Found</h3>
+			<h3 onclick="showContent(4)">Content Management Made Simple</h3>
+		</div>
+
+		<div class="click-right" id="click-box">
+			<div class="card">
+					<h2 id="click-heading">Versatility Across Platforms</h2>
+					<p id="click-body">
+						Whether it’s WordPress or a fully custom-coded website, we manage, maintain, and optimize your platform with expertise and precision.
+					</p>
+				</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="partnerships" >
+		<h2>Building a Legacy of Trust</h2>
+			<h3>Celebrating our Partnership</h3>
+				<div class="clients_logo">
+					<img src="landl.png" alt="Landl Logo">
+					<img src="demiros logo.png" alt="Demiros Logo">
+					<img src="fresh_fruits.png" alt="Fresh Fruits Logo">
+					<!--<img src="logos/jichonews-08.png" alt="LandL Media Logo">-->
+				</div>
+	</section>
+</main>
+
+<footer>
+	<div class="footer_content">
+		<div class="footer_column" id="footer-logo">
+			<a href="index.html">	
+			<img src="evoke_logo_footer.png" alt="Evoke Logo">
+			</a>
+		</div>
+		<div class="footer_column"id="contact-us">
+				<p>Contact us</p>
+				<p>Phone Number: 0700660694</p>
+				<a href="mailto:info@evokemedia.co.ke">Email: info@evokemedia.co.ke</a>
+		</div>
+		<div class="footer_column" id="social-media">
+				<p>Follow us</p>
+				<a href="#"><i class="fa fa-facebook"></i>  Facebook</a>
+				<a href="#"><i class="fa fa-twitter"></i>  Twitter</a>
+				<a href="#"><i class="fa fa-linkedin"></i>  LinkedIn</a>
+		</div>
+		<div class="footer_column" id="about-us">
+				<p>About Us</p>
+				<a href="about.html">Our Story</a>
+				<a href="#">Our Team</a>
+				<a href="#">Careers</a>
+		</div>
+	</div>
+     <p id="copyright">&copy; Evoke Media 2025. All Rights reserved.</p>
+
+</footer>
+<script>
+const content = {
+  1: {
+    img: "responsiveness.jpg",
+    heading: "Versatility Across Platforms",
+    text: "Whether it’s WordPress or a fully custom-coded website, we manage, maintain, and optimize your platform with expertise and precision."
+  },
+  2: {
+    img: "website loading speed.jpg",
+    heading: "Performance-Driven Approach",
+    text: "From speed optimization to security hardening, we fine-tune every detail so your website loads faster, runs smoother, and stays safe from threats."
+  },
+  3: {
+    img: "seo2.jpg",
+    heading: "SEO That Gets You Found",
+    text: "We implement smart SEO strategies so your website ranks higher, attracts more visitors, and turns searches into clicks and customers."
+  },
+  4: {
+    img: "web content.jpg",
+    heading: "Content Management",
+    text: "From updating blog posts to refreshing product pages, we handle your content so it stays fresh, relevant, and aligned with your goals."
+  }
+};
+
+function showContent(num){
+  const box = document.getElementById('click-box');
+  box.style.backgroundImage = `url('${content[num].img}')`;
+  document.getElementById('click-heading').textContent = content[num].heading;
+  document.getElementById('click-body').textContent = content[num].text;
+
+  // highlight active item
+  document.querySelectorAll('.click-left h3').forEach((el, i) => {
+    el.classList.toggle('active', i + 1 === num);
+  });
+}
+
+// set initial state
+showContent(1);
+</script>
+<script>
+window.addEventListener('scroll', function() {
+  const menu = document.querySelector('.menu');
+  const scrollPosition = window.scrollY; // or window.pageYOffset
+
+  // Adjust the scroll threshold (e.g., 50px) as needed
+  if (scrollPosition > 50) {
+    menu.classList.add('scrolled');
+  } else {
+    menu.classList.remove('scrolled');
+  }
+});
+</script>
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+</body>
+<html>

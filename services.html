@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>LandLMedia</title>
+	<meta name="description" content="digital training, online visibility">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+		<header>
+		<nav class="menu">
+			<!--Hamburger:Visible only on mobile-->
+			<div class="hamburger" id="hamburger">&#9776;</div>
+			<!-- Logo -->
+			<a href="index.html" class="logo"><img src="evoke_logo_white_rectangular.png" alt="Evoke_Logo"></a>
+			<!-- Navigation Links -->
+			<ul class="nav1" id="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div class="contact">
+				<a href="tel:0700660694"><i class="fa fa-phone"></i> 0700660694</a>
+		</nav>
+	</header>
+<main id ="section_main">
+    <section class="services_rows">
+    <h2>What We Do</h2>
+    <div class="services_row">
+        <div class="service_section">
+            <div class="service_icon">
+                <img src="programming icon.png" alt="Website Creation">
+            </div>
+            <h4>Website Creation</h4>
+            <p>We design and develop professional websites tailored to your business needs. From personal portfolios to full-scale e-commerce platforms, our websites are responsive, user-friendly, and built to deliver results.</p>
+        </div>
+        <div class="service_section">
+            <div class="service_icon">
+                <img src="seo_icon.png" alt="SEO Optimization">
+            </div>
+            <h4>SEO Optimization</h4>
+            <p>We help your business rank higher on search engines with proven SEO strategies. From keyword research to on-page and technical optimization, we ensure your website is visible, discoverable, and driving the right traffic.</p>
+        </div>
+        <div class="service_section">
+            <div class="service_icon">
+                <img src="socials_icon.png" alt="Social Media Management">
+            </div>
+            <h4>Social Media Management</h4>
+            <p>We create, manage, and grow your social media presence across key platforms. Through engaging content, consistent posting, and data-driven strategies, we help you connect with your audience and strengthen your brand online.</p>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+	<div class="footer_content">
+		<div class="footer_column" id="footer-logo">
+			<a href="index.html">	
+			<img src="evoke_logo_footer.png" alt="Evoke Logo">
+			</a>
+		</div>
+		<div class="footer_column"id="contact-us">
+				<p>Contact us</p>
+				<p>Phone Number: 0700660694</p>
+				<a href="mailto:info@evokemedia.co.ke">Email: info@evokemedia.co.ke</a>
+		</div>
+		<div class="footer_column" id="social-media">
+				<p>Follow us</p>
+				<a href="#"><i class="fa fa-facebook"></i>  Facebook</a>
+				<a href="#"><i class="fa fa-twitter"></i>  Twitter</a>
+				<a href="#"><i class="fa fa-linkedin"></i>  LinkedIn</a>
+		</div>
+		<div class="footer_column" id="about-us">
+				<p>About Us</p>
+				<a href="about.html">Our Story</a>
+				<a href="#">Our Team</a>
+				<a href="#">Careers</a>
+		</div>
+	</div>
+     <p id="copyright">&copy; Evoke Media 2025. All Rights reserved.</p>
+
+</footer>
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+</body>
+
+</html>
